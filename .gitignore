@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+recordings/*
+!recordings/.gitkeep
+!recordings/example_scene01/
+!recordings/example_scene01/**
+*.mp4
+*.mkv
+!screen_recording.mp4
+!recordings/example_scene01/**

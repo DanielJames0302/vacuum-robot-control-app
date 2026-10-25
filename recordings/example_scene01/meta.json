@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-10-21T20:51:16.699685+08:00",
+  "scene": "01",
+  "seed": 42,
+  "width": 640,
+  "height": 480,
+  "fps": 15.0,
+  "camera_info": {
+    "width": 640,
+    "height": 480,
+    "fx": 415.69219381653056,
+    "fy": 415.69219381653056,
+    "cx": 319.5,
+    "cy": 239.5,
+    "depth_scale": 0.001,
+    "T_base_camera": [
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.16
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rate": 15.0,
+    "max_depth": 6.0
+  },
+  "files": {
+    "rgb": "rgb.mp4",
+    "depth": "depth.mkv",
+    "manifest": "manifest.jsonl"
+  },
+  "format": {
+    "rgb": "H.264 MP4, RGB24, constant nominal fps",
+    "depth": "FFV1 MKV, gray16le, millimetres (multiply by depth_scale)",
+    "manifest": "JSONL: frame index, sim time t, seq, robot pose [x, y, yaw]"
+  },
+  "started": false,
+  "frames_written": 364,
+  "dropped": 0,
+  "duration_s": 24.266666666666666
+}
